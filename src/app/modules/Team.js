@@ -5,16 +5,10 @@ export default class Team {
     }
   }
 
-  [Symbol.iterator]() {
-    return {
-      characters: Object.entries(this),
-      index: 0,
-      next() {
-        if (this.index < this.characters.length) {
-          return { done: false, value: this.characters[this.index++][1] };
-        }
-        return { done: true };
-      },
-    };
+  * [Symbol.iterator]() {
+    const characters = Object.values(this);
+    for (let i = 0; i < characters.length; i += 1) {
+      yield characters[i];
+    }
   }
 }
