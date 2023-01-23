@@ -60,3 +60,5 @@ class Team {
 ```
 
 ---
+
+[![Build status](https://ci.appveyor.com/api/projects/status/i7tpi1e0xyacrvdd?svg=true)](https://ci.appveyor.com/project/Turovae/symbols-generators)
