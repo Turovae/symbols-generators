@@ -1,4 +1,25 @@
 body {
-  background-color: blue;
-  color: white; 
+  background-color: rgb(113, 144, 212);
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  text-shadow: 1px 1px 2px rgb(4, 232, 240), 0 0 1em rgb(23, 23, 26), 0 0 0.2em rgb(35, 35, 216);
+}
+
+#team {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.character-container {
+  box-shadow: 0 0 5px rgba(3, 24, 68, 0.9);
+  background-color: white;
+  color: rgb(27, 76, 182);
+  border-radius: 20px;
+  padding: 0 25px 25px 10px;
+  margin: 25px;
 }
